@@ -1,0 +1,36 @@
+
+$colorPrincipal: white;
+$colorSecundario: black;
+
+
+/**MAPS**/ 
+$tamanios:(
+    alto1: 50%,
+    alto2:20hv,
+    alto3: 18hv,
+
+
+    ancho1: 100%,
+    ancho2:65px,
+);
+
+/**Extends**/
+%flexRow{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/**Mixin**/
+@mixin flexbox($direction, $justify,$wrap,$padding){
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: center;
+    vertical-align: middle;
+    padding: 3%;
+
+    
+
+}

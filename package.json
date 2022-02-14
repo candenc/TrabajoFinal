@@ -1,0 +1,25 @@
+{
+  "name": "trabajofinal",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass  --include-path scss scss/modificacionb.scss css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candenc/devantTrabajo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candenc/devantTrabajo/issues"
+  },
+  "homepage": "https://github.com/candenc/devantTrabajo#readme"
+}

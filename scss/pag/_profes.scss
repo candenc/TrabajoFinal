@@ -1,0 +1,10 @@
+main{
+    .row{
+        padding: 3%;
+        .contenido{
+            @include flexbox(flex,row,nowrap,padding)
+            
+        }
+    }
+   
+}
