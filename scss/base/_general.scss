@@ -6,7 +6,9 @@
 a{
     text-decoration: none;
 }
-
+h2{
+  @include order(text-align,font-size,text-decoration)
+}
 body{
     background-image: url(/imagenes/siluet.jpg);
     background-repeat: no-repeat;

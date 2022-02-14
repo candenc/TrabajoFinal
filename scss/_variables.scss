@@ -34,3 +34,9 @@ $tamanios:(
     
 
 }
+@mixin order($text-align,$font-size,$text-decoration){
+    text-align: center;
+    font-size: 25px;
+    text-decoration:underline;
+
+}  
