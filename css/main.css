@@ -52,6 +52,7 @@ header {
       header nav .navbar-nav .nav-item {
         margin: 3px; }
         header nav .navbar-nav .nav-item a {
+          color: white;
           text-decoration: none; }
 
 .pageBottom {
