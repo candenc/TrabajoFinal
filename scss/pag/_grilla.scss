@@ -8,23 +8,24 @@ main{
     }
    
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:550px){
     
     .contenido{
         display: column;
         width: 400px;
-        height: 400px;
+        height: 500px;
+    }
+    .table{
+        display:none;
     }
 }
 
     
 
-@media only screen and (max-width:600px){
-    .table{
-        display:none;
-    }
+@media only screen and (max-width:200px){
+   
     .contenido{
-        width: 400px;
-        height: 400px;
+        width: 250px;
+        height: 350px;
     }
 }
