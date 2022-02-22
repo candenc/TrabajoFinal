@@ -6,6 +6,7 @@
 a{
     text-decoration: none;
 }
+
 h2{
   @include order(text-align,font-size,text-decoration)
 }
@@ -20,38 +21,48 @@ header{
     background-image: linear-gradient(#6014a7, #e912ba);
     color: $colorPrincipal;
     
+    .indexBarra{
      
-    .imagenInicial{
-      
-        width:  map-get($tamanios, ancho2);
-        margin-top: -1%;
+        h1{
+            text-align: center;
+            
+        }
+        .imagenInicial{
+            width:  map-get($tamanios, ancho2);
+            margin-top: -1%;
+            
         
-    
-    }
-    .tamañoTexto{
-        font-size: 6px;
-        font-family:'Roboto', sans-serif;
-        margin-top: -4%;
-        color:$colorPrincipal; 
-     
-      
-    }
+        }
+        .tamañoTexto{
+            font-size: 6px;
+            font-family:'Roboto', sans-serif;
+            margin-top:-2%;
+            margin-left: 1%;
+            color:$colorPrincipal; 
+         
+          
+        }
+    } 
+
+ 
+   
         nav{  
             background-image: -webkit-gradient(linear, left top, left bottom, from(#6014a7), to(#e912ba));
             background-image: linear-gradient(#6014a7, #e912ba);
             text-decoration: none;
-            margin-left: 10%;
-            margin-right: 2%;
-           
+            margin-left: 20%;
+            margin-right: 5%;
+            margin-top: -4%;
+
             #navbarNav{
             color: $colorPrincipal;
-            font-size: 30px;
+            font-size: 20px;
            
         }
         .navbar-nav {
             color: $colorPrincipal;
             .nav-item {
-                margin: 3px;
+                padding: 15px;
             
                 a{
                     color: $colorPrincipal;
@@ -82,4 +93,25 @@ header{
         list-style: none;
         
     }  
+}
+@media only screen and (max-width:550px){
+    footer{
+        .pageBottom{
+            ul{
+                list-style: none;
+                align-items: flex-start;
+    
+            }
+        }
+    }
+    .imagenInicial{
+        display: none;
+    
+    }
+    .tamañoTexto{
+       display: none;
+      
+    }
+
+    
 }

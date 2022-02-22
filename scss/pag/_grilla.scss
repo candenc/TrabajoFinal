@@ -1,0 +1,30 @@
+main{
+    .row{
+        padding: 3%;
+        .contenido{
+            @include flexbox(flex,row,nowrap,padding)
+            
+        }
+    }
+   
+}
+@media only screen and (max-width:400px){
+    
+    .contenido{
+        display: column;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+    
+
+@media only screen and (max-width:600px){
+    .table{
+        display:none;
+    }
+    .contenido{
+        width: 400px;
+        height: 400px;
+    }
+}
