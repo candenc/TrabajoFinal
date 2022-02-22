@@ -9,11 +9,12 @@ main{
    
 }
 @media only screen and (max-width:550px){
-    
+ 
     .contenido{
-        display: column;
-        width: 400px;
-        height: 500px;
+        margin:20%;
+        width: 300px;
+        height: 400px;
+      
     }
     .table{
         display:none;

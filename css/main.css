@@ -47,14 +47,20 @@ header {
     text-decoration: none;
     margin-left: 20%;
     margin-right: 5%;
-    margin-top: -4%; }
+    margin-top: -4%;
+    color: white; }
     header nav #navbarNav {
       color: white;
-      font-size: 20px; }
+      font-size: 20px;
+      margin-left: 20%;
+      margin-right: 5%; }
     header nav .navbar-nav {
       color: white; }
       header nav .navbar-nav .nav-item {
-        padding: 15px; }
+        padding: 5px;
+        color: white; }
+        header nav .navbar-nav .nav-item .nav-link {
+          color: white; }
         header nav .navbar-nav .nav-item a {
           color: white;
           text-decoration: none; }
@@ -70,31 +76,36 @@ header {
     align-items: center;
     list-style: none; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 550px) {
+  body {
+    background-image: none; }
+  .navigator {
+    margin: 1%; }
+  footer .pBottom {
+    display: none; }
+  footer .pageBottom {
+    list-style: none;
+    height: 60px;
+    position: absolute;
+    bottom: 0; }
   .imagenInicial {
     display: none; }
   .tamañoTexto {
     display: none; } }
-
-@media only screen and (max-width: 600px) {
-  .table {
-    display: none; } }
-
-main .row {
-  padding: 3%; }
-  main .row .contenido {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    vertical-align: middle;
-    padding: 3%; }
 
 .nos {
   margin: 3%; }
   .nos .imgText {
     height: 100vh;
     width: 250px; }
+
+@media only screen and (max-width: 550px) {
+  .nos {
+    display: table-column;
+    margin: 3%; }
+    .nos .imgText {
+      height: 100vh;
+      width: 250px; } }
 
 .galeria .carousel {
   width: 50%; }
@@ -106,6 +117,25 @@ main .row {
   margin-left: 350px;
   align-items: center; }
 
-@media only screen and (max-width: 600px) {
+main .row {
+  padding: 3%; }
+  main .row .contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    vertical-align: middle;
+    padding: 3%; }
+
+@media only screen and (max-width: 550px) {
+  .contenido {
+    margin: 20%;
+    width: 300px;
+    height: 400px; }
   .table {
     display: none; } }
+
+@media only screen and (max-width: 200px) {
+  .contenido {
+    width: 250px;
+    height: 350px; } }

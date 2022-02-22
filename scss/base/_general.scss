@@ -53,22 +53,29 @@ header{
             margin-left: 20%;
             margin-right: 5%;
             margin-top: -4%;
+            color: $colorPrincipal;
+      
 
             #navbarNav{
             color: $colorPrincipal;
             font-size: 20px;
+            margin-left: 20%;
+            margin-right: 5%;
            
         }
         .navbar-nav {
             color: $colorPrincipal;
             .nav-item {
-                padding: 15px;
-            
+                padding: 5px;
+                color: $colorPrincipal;
+                .nav-link{
+                    color: $colorPrincipal;
+                }
                 a{
                     color: $colorPrincipal;
                     text-decoration: none; 
                 }
-               
+              
             }
            
         }
@@ -95,13 +102,23 @@ header{
     }  
 }
 @media only screen and (max-width:550px){
+    body{
+        background-image: none;
+    }
+    .navigator{
+        margin: 1%;
+    } 
+  
     footer{
+        .pBottom{
+            display: none;
+        }
         .pageBottom{
-            ul{
-                list-style: none;
-                align-items: flex-start;
-    
-            }
+            list-style: none;
+            height: 60px;
+            position: absolute;
+            bottom: 0;
+            
         }
     }
     .imagenInicial{
@@ -113,5 +130,5 @@ header{
       
     }
 
-    
 }
+
