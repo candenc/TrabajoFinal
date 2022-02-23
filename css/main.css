@@ -100,12 +100,9 @@ header {
     width: 250px; }
 
 @media only screen and (max-width: 550px) {
-  .nos {
-    display: table-column;
-    margin: 3%; }
-    .nos .imgText {
-      height: 100vh;
-      width: 250px; } }
+  .nos .imgText {
+    height: 100vh;
+    width: 250px; } }
 
 .galeria .carousel {
   width: 50%; }
@@ -128,11 +125,10 @@ main .row {
     padding: 3%; }
 
 @media only screen and (max-width: 550px) {
-  .contenido {
-    margin: 20%;
+  main .row .contenido {
     width: 300px;
-    height: 400px; }
-  .table {
+    flex-direction: column; }
+  .mainContent .table {
     display: none; } }
 
 @media only screen and (max-width: 200px) {
