@@ -84,23 +84,35 @@ header{
       
     
 }
-
-.pageBottom {
-
+footer{
     background-image: linear-gradient(rgb(96, 20, 167), rgb(233, 18, 186));
     color: $colorPrincipal;
     height:map-get($tamanios, alto2);
-    list-style: none;
-    height: 60px;
+    height: 130px;
+    width:100%;
+    @extend %flexRow;
+    width:map-get($tamanios, ancho1);
+    align-items: center;
+
+    p{
+        display: block;
+    }
     
-    ul{
-        @extend %flexRow;
-        width:map-get($tamanios, ancho1);
-        align-items: center;
+   ul{
+    display: flex;
+       li{
         list-style: none;
         
-    }  
+           a{
+        
+               color:#6014a7;
+               display: inline;
+           
+           }
+       }
+   }
 }
+
 @media only screen and (max-width:550px){
     body{
         background-image: none;
@@ -110,9 +122,7 @@ header{
     } 
   
     footer{
-        .pBottom{
-            display: none;
-        }
+     
         .pageBottom{
             list-style: none;
             height: 60px;
@@ -129,6 +139,7 @@ header{
        display: none;
       
     }
+   
 
 }
 

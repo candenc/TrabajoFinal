@@ -1,40 +1,17 @@
 main{
     .row{
-        padding: 3%;
-        .contenido{
-            @include flexbox(flex,row,nowrap,padding)
-            
-        }
-    }
-   
-}
-@media only screen and (max-width:550px){
-    
-    main { 
-        .row {
-            .contenido{
-
-                width: 300px;
-                flex-direction: column;
-            }
-        }
-
       
-    }
-   
-    .mainContent{
-        .table{
-            display:none;
+        .contenido{
+            @include flexbox(flex,row,wrap,padding);
+            justify-content: center;
+            align-items:center;
+        }
+
+        img{
+            margin: 5%;
         }
     }
-}
-
-    
-
-@media only screen and (max-width:200px){
    
-    .contenido{
-        width: 250px;
-        height: 350px;
-    }
+
+
 }

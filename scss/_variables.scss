@@ -26,7 +26,7 @@ $tamanios:(
 @mixin flexbox($direction, $justify,$wrap,$padding){
     display: flex;
     flex-direction:row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     vertical-align: middle;
     padding: 3%;
