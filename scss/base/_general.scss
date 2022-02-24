@@ -88,26 +88,27 @@ footer{
     background-image: linear-gradient(rgb(96, 20, 167), rgb(233, 18, 186));
     color: $colorPrincipal;
     height:map-get($tamanios, alto2);
-    height: 130px;
+    height: 140px;
     width:100%;
     @extend %flexRow;
     width:map-get($tamanios, ancho1);
     align-items: center;
 
     p{
-        display: block;
+        display: flex;
     }
     
    ul{
     display: flex;
        li{
         list-style: none;
+        margin: 4%;
         
            a{
         
                color:#6014a7;
                display: inline;
-           
+                
            }
        }
    }
@@ -143,3 +144,13 @@ footer{
 
 }
 
+
+@media only screen and (max-width:400px){
+footer{
+    ul{
+        display: flow-root;
+        font-size: x-small;
+    }
+
+    }   
+}
