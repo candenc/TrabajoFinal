@@ -119,13 +119,12 @@ main .nos .karim {
     width: 250px; } }
 
 .galeria .carousel {
-  width: 50%; }
+  width: 100%; }
 
 .galeria .videoG {
-  width: 500px;
+  width: 900px;
   height: 300px;
-  margin: 5%;
-  margin-left: 30%; }
+  margin: 3%; }
 
 @media only screen and (max-width: 550px) {
   .galeria .videoG {
