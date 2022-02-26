@@ -30,17 +30,19 @@ header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6014a7), to(#e912ba));
   background-image: linear-gradient(#6014a7, #e912ba);
   color: white; }
-  header .indexBarra h1 {
-    text-align: center; }
-  header .indexBarra .imagenInicial {
-    width: 65px;
-    margin-top: -1%; }
-  header .indexBarra .tamañoTexto {
-    font-size: 6px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: -2%;
-    margin-left: 1%;
-    color: white; }
+  header .indexBarra {
+    margin: 1%; }
+    header .indexBarra h1 .container {
+      text-align: center;
+      font-size: 20px; }
+    header .indexBarra .imagenInicial {
+      width: 65px;
+      margin-top: -1%; }
+    header .indexBarra .tamañoTexto {
+      font-size: 6px;
+      font-family: 'Roboto', sans-serif;
+      margin-top: -2%;
+      color: white; }
   header nav {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#6014a7), to(#e912ba));
     background-image: linear-gradient(#6014a7, #e912ba);
@@ -104,15 +106,16 @@ footer {
     display: flow-root;
     font-size: x-small; } }
 
-.nos {
-  margin: 3%; }
-  .nos .imgText {
-    height: 100vh;
-    width: 250px; }
+main .nos .imgText {
+  height: 300px;
+  width: 250px; }
+
+main .nos .karim {
+  text-align: center; }
 
 @media only screen and (max-width: 550px) {
   .nos .imgText {
-    height: 100vh;
+    height: 250px;
     width: 250px; } }
 
 .galeria .carousel {
@@ -143,6 +146,12 @@ main .row .contenido {
 main .row img {
   margin: 5%; }
 
+.table {
+  border: 8px; }
+
 @media only screen and (max-width: 550px) {
   table {
     display: none; } }
+
+.vidIlustrativo {
+  height: 500px; }

@@ -1,11 +1,17 @@
-.nos {
-    margin: 3%;
-
-    .imgText{
-        height: 100vh;
-        width: 250px;
-    }
+main{
+    
+    .nos {
+   
+        .imgText{
+            height: 300px;
+            width: 250px;
+        }
+        .karim{
+            text-align: center;
+        }
 }
+}
+
 @media only screen and (max-width:550px){
     
     .nos {
@@ -13,7 +19,7 @@
        
     
         .imgText{
-            height: 100vh;
+            height: 250px;
             width: 250px;
         }
     }
