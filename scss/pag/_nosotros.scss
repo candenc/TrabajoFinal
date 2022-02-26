@@ -4,7 +4,8 @@ main{
    
         .imgText{
             height: 300px;
-            width: 250px;
+            width: 300px;
+            margin-top: 15%;
         }
         .karim{
             text-align: center;
@@ -12,15 +13,15 @@ main{
 }
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:400px){
     
     .nos {
-      
-       
+        background-image: none;
+      .imgText{
+          display: none;
+      }
+   
     
-        .imgText{
-            height: 250px;
-            width: 250px;
-        }
+    
     }
 }

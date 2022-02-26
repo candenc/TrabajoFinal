@@ -108,21 +108,23 @@ footer {
 
 main .nos .imgText {
   height: 300px;
-  width: 250px; }
+  width: 300px;
+  margin-top: 15%; }
 
 main .nos .karim {
   text-align: center; }
 
-@media only screen and (max-width: 550px) {
-  .nos .imgText {
-    height: 250px;
-    width: 250px; } }
+@media only screen and (max-width: 400px) {
+  .nos {
+    background-image: none; }
+    .nos .imgText {
+      display: none; } }
 
 .galeria .carousel {
   width: 100%; }
 
 .galeria .videoG {
-  width: 900px;
+  width: 1100px;
   height: 300px;
   margin: 3%; }
 
@@ -145,8 +147,14 @@ main .row .contenido {
 main .row img {
   margin: 5%; }
 
+.info {
+  align-items: center;
+  width: 90%; }
+
 .table {
-  border: 8px; }
+  align-items: center;
+  border: 8px;
+  width: 90%; }
 
 @media only screen and (max-width: 550px) {
   table {
@@ -154,3 +162,9 @@ main .row img {
 
 .vidIlustrativo {
   height: 500px; }
+
+.mainContent {
+  margin: 5%; }
+
+.alert-primary {
+  text-align: center; }
