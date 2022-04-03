@@ -21,7 +21,6 @@ h2 {
   text-decoration: underline; }
 
 body {
-  background-image: url(../imagenes/siluet.jpg);
   background-repeat: no-repeat;
   background-size: 300px 300px;
   background-position: right; }
@@ -47,15 +46,15 @@ header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#6014a7), to(#e912ba));
     background-image: linear-gradient(#6014a7, #e912ba);
     text-decoration: none;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-right: 5%;
     margin-top: -4%;
     color: white; }
     header nav #navbarNav {
       color: white;
       font-size: 20px;
-      margin-left: 20%;
-      margin-right: 5%; }
+      margin-left: 30%;
+      margin-right: 10%; }
     header nav .navbar-nav {
       color: white; }
       header nav .navbar-nav .nav-item {
@@ -65,7 +64,8 @@ header {
           color: white; }
         header nav .navbar-nav .nav-item a {
           color: white;
-          text-decoration: none; }
+          text-decoration: none;
+          text-align: center; }
 
 footer {
   background-image: linear-gradient(#6014a7, #e912ba);
@@ -106,60 +106,6 @@ footer {
     display: flow-root;
     font-size: x-small; } }
 
-main .nos .imgText {
-  height: 300px;
-  width: 300px;
-  margin-top: 15%; }
-
-main .nos .karim {
-  text-align: center; }
-
-@media only screen and (max-width: 400px) {
-  .nos {
-    background-image: none; }
-    .nos .imgText {
-      display: none; } }
-
-.galeria .carousel {
-  width: 100%; }
-
-.galeria .videoG {
-  width: 1100px;
-  height: 300px;
-  margin: 3%; }
-
-@media only screen and (max-width: 550px) {
-  .galeria .videoG {
-    width: 300px;
-    height: 200px;
-    margin: 5%; } }
-
-main .row .contenido {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  vertical-align: middle;
-  padding: 3%;
-  justify-content: center;
-  align-items: center; }
-
-main .row img {
-  margin: 5%; }
-
-.info {
-  align-items: center;
-  width: 90%; }
-
-.table {
-  align-items: center;
-  border: 8px;
-  width: 90%; }
-
-@media only screen and (max-width: 550px) {
-  table {
-    display: none; } }
-
 .vidIlustrativo {
   height: 500px; }
 
@@ -168,3 +114,79 @@ main .row img {
 
 .alert-primary {
   text-align: center; }
+
+.image {
+  margin-left: 25%; }
+
+.formulario {
+  text-align: center;
+  background: #6014a7;
+  padding: 15px 10px;
+  border: 20px;
+  width: 40%;
+  height: 45%;
+  box-shadow: 0px 0px 10px 6px;
+  margin-top: -8%;
+  margin-left: 50px;
+  position: sticky; }
+  .formulario .tCont {
+    margin: 10px 0;
+    font-weight: 800;
+    color: white; }
+  .formulario .form {
+    padding: 5px; }
+  .formulario .space {
+    padding: 10px;
+    color: white;
+    text-align: center; }
+
+input, textarea {
+  background: none;
+  color: rgba(255, 255, 255, 0.758);
+  font-size: 18px;
+  padding: 10px 10px 10px 5px; }
+
+.alumnos {
+  background-color: #ebd8fc;
+  color: white; }
+  .alumnos .indexBarra2 {
+    margin-bottom: 5%; }
+  .alumnos .pages {
+    list-style: none;
+    margin-left: 190vh; }
+  .alumnos .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%; }
+    .alumnos .container .inicioS {
+      text-align: center;
+      background: #6014a7;
+      padding: 15px 10px;
+      border-radius: 20px;
+      width: 90%;
+      height: 45%;
+      box-shadow: 0px 0px 10px 6px;
+      position: sticky;
+      margin-top: 50%; }
+      .alumnos .container .inicioS .formato {
+        padding: 5px; }
+      .alumnos .container .inicioS .space {
+        padding: 10px;
+        color: white;
+        text-align: center; }
+    .alumnos .container .inicioS2 {
+      text-align: center;
+      background: #e912ba;
+      padding: 15px 10px;
+      border-radius: 20px;
+      width: 90%;
+      height: 100%;
+      box-shadow: 0px 0px 10px 6px;
+      position: sticky;
+      margin-top: 5%; }
+      .alumnos .container .inicioS2 .formato {
+        padding: 5px; }
+      .alumnos .container .inicioS2 .space {
+        padding: 10px;
+        color: white;
+        text-align: center; }

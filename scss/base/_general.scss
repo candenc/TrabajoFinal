@@ -11,7 +11,7 @@ h2{
   @include order(text-align,font-size,text-decoration)
 }
 body{
-    background-image: url(../imagenes/siluet.jpg);
+  
     background-repeat: no-repeat;
     background-size: 300px 300px;
     background-position: right;
@@ -20,9 +20,10 @@ header{
     background-image: -webkit-gradient(linear, left top, left bottom, from(#6014a7), to(#e912ba));
     background-image: linear-gradient(#6014a7, #e912ba);
     color: $colorPrincipal;
-    
+   
     .indexBarra{
     margin:1%;
+ 
         h1{
             .container{
                 text-align: center;
@@ -47,48 +48,64 @@ header{
          
           
         }
+       
     } 
 
- 
+  
    
         nav{  
             background-image: -webkit-gradient(linear, left top, left bottom, from(#6014a7), to(#e912ba));
             background-image: linear-gradient(#6014a7, #e912ba);
             text-decoration: none;
-            margin-left: 20%;
+            margin-left: 25%;
             margin-right: 5%;
             margin-top: -4%;
             color: $colorPrincipal;
-      
+     
 
             #navbarNav{
             color: $colorPrincipal;
             font-size: 20px;
-            margin-left: 20%;
-            margin-right: 5%;
+            margin-left: 30%;
+            margin-right: 10%;
+            
+            
            
         }
-        .navbar-nav {
-            color: $colorPrincipal;
-            .nav-item {
-                padding: 5px;
+       
+            .navbar-nav {
                 color: $colorPrincipal;
-                .nav-link{
+                
+                .nav-item {
+                    padding: 5px;
                     color: $colorPrincipal;
+                   
+                    .nav-link{
+                        color: $colorPrincipal;
+                       
+                    }
+                  
+                    a{
+                        color: $colorPrincipal;
+                        text-decoration: none; 
+                        text-align: center;
+                      
+                    }
+                   
+        
                 }
-                a{
-                    color: $colorPrincipal;
-                    text-decoration: none; 
-                }
-              
             }
-           
         }
     }
- 
-      
-    
-}
+        
+            
+            
+        
+
+
+
+
+
 footer{
     background-image: linear-gradient(rgb(96, 20, 167), rgb(233, 18, 186));
     color: $colorPrincipal;
